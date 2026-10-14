@@ -24,11 +24,7 @@ function getCommonCharacterCount(s1, s2) {
       counter++;
       i++; j++;
     } else {
-      if(a[i] > b[j]){
-        j++
-      } else {
-        i++
-      }
+      (a[i] > b[j])? j++ : i++;
     }
   }
 
